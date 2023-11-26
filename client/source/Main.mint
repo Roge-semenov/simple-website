@@ -5,7 +5,7 @@ component Main {
     align-items: center;
     display: flex;
 
-    background-color: #282C34;
+   
     height: 100vh;
     width: 100vw;
 
@@ -15,13 +15,7 @@ component Main {
 
   fun render : Html {
     <div::app>
-      <Logo/>
-
-      <Info mainPath="source/Main.mint"/>
-
-      <Link href="https://www.mint-lang.com/">
-        "Mint is working"
-      </Link>
+      <Login mainPath="source/Main.mint"/>
     </div>
   }
 }

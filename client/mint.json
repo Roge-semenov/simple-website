@@ -5,6 +5,12 @@
     "title": "my-app",
     "icon": "assets/favicon.png"
   },
+  "dependencies": {
+    "mint-ui": {
+      "repository": "https://github.com/mint-lang/mint-ui",
+      "constraint": "8.0.0 <= v < 9.0.0"
+    }
+  },
   "external": {
     "stylesheets": [
       "assets/style.css"
